@@ -1,0 +1,11 @@
+.section {
+  text-align: center;
+  font-size: 20px;
+  padding: 50px 5%;
+  display: flex;
+  justify-content: center;
+}
+
+.section .text {
+  width: 700px;
+}
