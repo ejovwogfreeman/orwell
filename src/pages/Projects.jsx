@@ -1,12 +1,12 @@
 import React from "react";
 import ScrollToTop from "../components/ScrollToTop";
-// import img from "../assets/"
+// import img from "../assets/house1.jpg";
 
 // const projects = [
 //     {
 
 //     }
-// ]
+// ];
 
 const Projects = () => {
   return (
