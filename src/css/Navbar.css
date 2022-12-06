@@ -94,7 +94,6 @@ nav img {
     font-size: 40px;
     color: white;
     text-align: right;
-    padding: 0px;
     padding-right: 20px;
   }
 
@@ -103,6 +102,8 @@ nav img {
     border-radius: 50%;
     padding: 5px;
     transition: 0.2s ease-in-out;
+    margin: 0px;
+    margin-top: -10px;
   }
 
   .close:hover {
@@ -118,14 +119,11 @@ nav img {
     background-color: black;
     display: flex;
     justify-content: center;
-    padding: 20px;
+    padding: 25px;
     transition: 0.2s ease-in-out;
   }
   .mobile-nav a:hover {
     color: white;
     background-color: rgb(70, 68, 68);
-    display: flex;
-    justify-content: center;
-    padding: 20px;
   }
 }
