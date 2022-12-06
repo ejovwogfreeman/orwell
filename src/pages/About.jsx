@@ -1,24 +1,8 @@
-import React, { useState } from "react";
+import React from "react";
 import "../css/Contact.css";
-import { CgMail } from "react-icons/cg";
-import { MdCall, MdLocationOn } from "react-icons/md";
 import ScrollToTop from "../components/ScrollToTop";
 
 const Contact = () => {
-  const [name, setName] = useState("");
-  const [email, setEmail] = useState("");
-  const [number, setNumber] = useState("");
-  const [content, setContent] = useState("");
-
-  const handleSubmit = (e) => {
-    e.preventDefault();
-
-    setName("");
-    setEmail("");
-    setNumber("");
-    setContent("");
-  };
-
   return (
     <>
       <ScrollToTop />

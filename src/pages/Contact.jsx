@@ -12,7 +12,6 @@ const Contact = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-
     setName("");
     setEmail("");
     setNumber("");
