@@ -12,22 +12,22 @@ const MobileNav = ({ open, handleOpen }) => {
         <Link to="/">HOME</Link>
       </li>
       <li>
-        <Link to="/">ABOUT</Link>
+        <Link to="/about">ABOUT</Link>
       </li>
       <li>
-        <Link to="/">SERVICES</Link>
+        <Link to="/services">SERVICES</Link>
       </li>
       <li>
-        <Link to="/">PROJECTS</Link>
+        <Link to="/projects">PROJECTS</Link>
       </li>
       <li>
-        <Link to="/">PEOPLE</Link>
+        <Link to="/people">PEOPLE</Link>
       </li>
       <li>
-        <Link to="/">INVESTORS LOGIN</Link>
+        <Link to="/login">INVESTORS LOGIN</Link>
       </li>
       <li>
-        <Link to="/">CONTACT</Link>
+        <Link to="/contact">CONTACT</Link>
       </li>
     </ul>
   );
