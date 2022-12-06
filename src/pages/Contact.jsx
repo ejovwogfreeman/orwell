@@ -22,7 +22,9 @@ const Contact = () => {
   return (
     <>
       <ScrollToTop />
-      <header style={{ height: "400px" }}></header>
+      <header style={{ height: "400px" }}>
+        <p className="display-3">Contact</p>
+      </header>
       <div class="mapouter" style={{ marginTop: "60px", padding: "0px 5%" }}>
         <div class="gmap_canvas">
           <iframe
