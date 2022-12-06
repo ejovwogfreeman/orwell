@@ -12,7 +12,6 @@ import { Link } from "react-router-dom";
 const Slider = () => {
   const options = {
     loop: true,
-    margin: 0,
     nav: true,
     margin: 10,
     navText: ["&#x2770;", "&#x2771;"],
@@ -23,10 +22,10 @@ const Slider = () => {
       0: {
         items: 1,
       },
-      400: {
+      600: {
         items: 2,
       },
-      600: {
+      1200: {
         items: 3,
       },
     },

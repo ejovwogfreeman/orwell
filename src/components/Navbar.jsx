@@ -2,12 +2,13 @@ import React, { useState, useEffect } from "react";
 import logo from "../assets/logo.png";
 import { Link } from "react-router-dom";
 import "../css/Navbar.css";
+import { AiOutlineMenu } from "react-icons/ai";
 
 const Navbar = () => {
   const [change, setChange] = useState(false);
   useEffect(() => {
     window.addEventListener("scroll", () => {
-      if (window.scrollY > 200) {
+      if (window.scrollY > 100) {
         setChange(true);
       } else {
         setChange(false);
@@ -42,6 +43,9 @@ const Navbar = () => {
           <Link to="/">CONTACT</Link>
         </li>
       </ul>
+      <div className="menu-icon">
+        <AiOutlineMenu />
+      </div>
     </nav>
   );
 };

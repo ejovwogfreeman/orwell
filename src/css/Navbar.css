@@ -41,6 +41,10 @@ nav img {
   animation: slide-down 1s;
 }
 
+.menu-icon {
+  display: none;
+}
+
 @keyframes slide-down {
   0% {
     opacity: 0;
@@ -49,5 +53,14 @@ nav img {
   100% {
     opacity: 0.9;
     transform: translateY(0);
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .menu-icon {
+    display: block;
+  }
+  nav ul {
+    display: none;
   }
 }
