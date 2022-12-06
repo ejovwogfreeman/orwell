@@ -5,16 +5,15 @@ const Section = () => {
   return (
     <div className="section">
       <div className="text">
-        We provide professional Development Management services to private
-        clients, commercial clients and Institutional Funds across the UK.{" "}
-        <br />
-        Our aim is to maximise the asset value whilst protecting the interests
-        of all stakeholders. <br /> We undertake a comprehensive advisory
-        service across the full spectrum of the development cycle from
-        acquisition, planning, legals and construction through to disposal.{" "}
-        <br /> Our exposure and involvement in the development debt market
-        enables us to review suitable financial structures to best suit our
-        clients development objective.
+        Thank you for trusting us with the search for your new investment. We're
+        here to help you in your hunt to find the right investment for your
+        family. <br /> Orwell Properties Management Limited is one of the
+        leading real estate company in Nigeria that aims to providing unique
+        experiences to its Customers making real estate accessible for everyone.{" "}
+        <br /> We're a technology- oriented company specializing in the areas of
+        land purchasing, estate development and management. We also pride
+        ourselves in securing viable investment opportunities for clients home
+        and abroad.
       </div>
     </div>
   );
