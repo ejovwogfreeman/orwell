@@ -3,8 +3,13 @@ import logo from "../assets/logo.png";
 import { Link } from "react-router-dom";
 import "../css/Navbar.css";
 import { AiOutlineMenu } from "react-icons/ai";
+import MobileNav from "./MobileNav";
 
 const Navbar = () => {
+  const [open, setOpen] = useState(false);
+  const handleOpen = () => {
+    setOpen(!open);
+  };
   const [change, setChange] = useState(false);
   useEffect(() => {
     window.addEventListener("scroll", () => {
@@ -20,7 +25,8 @@ const Navbar = () => {
       <div>
         <img src={logo} alt="" />
       </div>
-      <ul>
+      <MobileNav open={open} handleOpen={handleOpen} />
+      <ul className="links">
         <li>
           <Link to="/">HOME</Link>
         </li>
@@ -44,7 +50,7 @@ const Navbar = () => {
         </li>
       </ul>
       <div className="menu-icon">
-        <AiOutlineMenu />
+        <AiOutlineMenu onClick={handleOpen} />
       </div>
     </nav>
   );
