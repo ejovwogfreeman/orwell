@@ -24,18 +24,21 @@ const Contact = () => {
       <header style={{ height: "400px" }}>
         <p className="display-3">Contact</p>
       </header>
-      <div class="mapouter" style={{ marginTop: "60px", padding: "0px 5%" }}>
-        <div class="gmap_canvas">
+      <div
+        className="mapouter"
+        style={{ marginTop: "60px", padding: "0px 5%" }}
+      >
+        <div className="gmap_canvas">
           <iframe
             title="google-map"
             width="100%"
             height="300px"
             id="gmap_canvas"
             src="https://maps.google.com/maps?q=ring%20road%20benin%20city%20&t=&z=13&ie=UTF8&iwloc=&output=embed"
-            frameborder="0"
+            frameBorder="0"
             scrolling="no"
-            marginheight="0"
-            marginwidth="0"
+            marginHeight="0"
+            marginWidth="0"
           ></iframe>
         </div>
       </div>
