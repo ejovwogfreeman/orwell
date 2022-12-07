@@ -8,26 +8,26 @@ const MobileNav = ({ open, handleOpen }) => {
       <div className="close-icon">
         <MdOutlineClose className="close" onClick={handleOpen} />
       </div>
-      <li>
+      <li onClick={() => handleOpen()}>
         <Link to="/">HOME</Link>
       </li>
-      <li>
-        <Link to="/">ABOUT</Link>
+      <li onClick={() => handleOpen()}>
+        <Link to="/about">ABOUT</Link>
       </li>
-      <li>
-        <Link to="/">SERVICES</Link>
+      <li onClick={() => handleOpen()}>
+        <Link to="/services">SERVICES</Link>
       </li>
-      <li>
-        <Link to="/">PROJECTS</Link>
+      <li onClick={() => handleOpen()}>
+        <Link to="/projects">PROJECTS</Link>
       </li>
-      <li>
-        <Link to="/">PEOPLE</Link>
+      <li onClick={() => handleOpen()}>
+        <Link to="/people">PEOPLE</Link>
       </li>
-      <li>
-        <Link to="/">INVESTORS LOGIN</Link>
+      <li onClick={() => handleOpen()}>
+        <Link to="/login">INVESTORS LOGIN</Link>
       </li>
-      <li>
-        <Link to="/">CONTACT</Link>
+      <li onClick={() => handleOpen()}>
+        <Link to="/contact">CONTACT</Link>
       </li>
     </ul>
   );

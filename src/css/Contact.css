@@ -1,0 +1,50 @@
+.contact-cont {
+  padding: 50px 5%;
+  display: flex;
+}
+
+.contact-cont .address {
+  flex: 1;
+}
+
+.contact-cont form {
+  flex: 1;
+}
+
+.contact-cont form input,
+.contact-cont form textarea,
+.contact-cont form button {
+  display: block;
+  width: 100%;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  outline: none;
+  margin-bottom: 20px;
+  font-size: 16px;
+  padding: 10px;
+  border-radius: 3px;
+  transition: 0.3s ease-in-out;
+}
+
+.contact-cont form textarea {
+  height: 200px;
+}
+
+.contact-cont form button {
+  background-color: black;
+  color: white;
+}
+.contact-cont form button:hover {
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+}
+
+.icon {
+  font-size: 30px;
+}
+
+@media screen and (max-width: 600px) {
+  .contact-cont {
+    display: block;
+  }
+}
