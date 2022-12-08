@@ -11,15 +11,19 @@ const Contact = () => {
       </header>
       <div className="section">
         <div className="text">
-          Thank you for trusting us with the search for your new investment.
-          We're here to help you in your hunt to find the right investment for
-          your family. <br /> Orwell Properties Management Limited is one of the
-          leading real estate company in Nigeria that aims to providing unique
-          experiences to its Customers making real estate accessible for
-          everyone. <br /> We're a technology- oriented company specializing in
-          the areas of land purchasing, estate development and management. We
-          also pride ourselves in securing viable investment opportunities for
-          clients home and abroad.
+          Our Company is a multifaceted commercial real estate firm that offers
+          property development and management, marketing, construction, and
+          facilities management services for customers in Nigeria. Since our
+          establishment in 2022, the company has been helping customers find
+          homes and lands that suits their lifestyle. We specialize in making
+          affordable deals for first-time homeowners and those looking to make
+          viable investment in Nigeria and overseas.
+          <br /> <br />
+          With our professional team of marketing executives, we have catered to
+          the needs of all our customers as per their real estate requirements
+          within the past few years of operation and will continue to do so. We
+          pride ourselves on developing long and prosperous relationships with
+          our customers.
         </div>
       </div>
     </>

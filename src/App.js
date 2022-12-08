@@ -10,6 +10,9 @@ import People from "./pages/People";
 import Login from "./pages/Login";
 import Contact from "./pages/Contact";
 import Notfound from "./pages/Notfound";
+import Mission from "./pages/Mission";
+import Vision from "./pages/Vision";
+import Values from "./pages/Values";
 
 function App() {
   return (
@@ -24,6 +27,9 @@ function App() {
           <Route path="/people" element={<People />} />
           <Route path="/login" element={<Login />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/mission" element={<Mission />} />
+          <Route path="/vision" element={<Vision />} />
+          <Route path="/values" element={<Values />} />
           <Route path="*" element={<Notfound />} />
         </Routes>
         <Footer />

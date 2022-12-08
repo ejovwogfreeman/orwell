@@ -48,7 +48,9 @@ const Contact = () => {
             <h4>GET IN TOUCH</h4>
             <p>
               Address: <br />
-              <MdLocationOn className="icon" /> &nbsp; Orwell Real Estate
+              <MdLocationOn className="icon" /> &nbsp; Orwell Properties
+              Management Limited <br />
+              Cf5 Katampe Estate, Phase 3, Jahi District, Abuja
             </p>
             <p>
               Send a Mail: <br />

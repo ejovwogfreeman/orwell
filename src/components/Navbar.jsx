@@ -35,15 +35,25 @@ const Navbar = () => {
         </li>
         <li>
           <div className="dropdown">
-            <Link to="/about">
-              ABOUT <IoMdArrowDropdown />
-            </Link>
+            <span
+              to="/about"
+              className="d-flex align-items-center"
+              style={{ cursor: "pointer", color: "rgb(184, 134, 11)" }}
+            >
+              <span>ABOUT</span> <IoMdArrowDropdown />
+            </span>
             <ul className="dropdown-items">
+              <li>
+                <Link to="/about">ABOUT US</Link>
+              </li>
               <li>
                 <Link to="/mission">OUR MISSION</Link>
               </li>
               <li>
                 <Link to="/vision">OUR VISION</Link>
+              </li>
+              <li>
+                <Link to="/values">OUR VALUES</Link>
               </li>
             </ul>
           </div>

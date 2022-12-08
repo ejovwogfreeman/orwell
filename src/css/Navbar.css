@@ -119,12 +119,14 @@ nav img {
     background-color: black;
     display: flex;
     justify-content: center;
-    padding: 25px;
+    padding: 20px;
     transition: 0.2s ease-in-out;
   }
-  .mobile-nav a:hover {
+  .mobile-nav a:hover,
+  .span:hover {
     color: white;
     background-color: rgb(70, 68, 68);
+    cursor: pointer;
   }
 }
 
@@ -160,6 +162,7 @@ nav img {
 .dropdown-items li a:hover {
   background-color: rgb(48, 38, 49);
   color: white;
+  cursor: pointer;
 }
 
 .dropdown-items-mobile-block li {

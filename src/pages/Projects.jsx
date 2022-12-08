@@ -1,53 +1,55 @@
 import React from "react";
 import ScrollToTop from "../components/ScrollToTop";
-import img from "../assets/house1.jpg";
+import img1 from "../assets/house1.jpg";
+import img2 from "../assets/house2.jpg";
+import img3 from "../assets/house3.jpg";
 import "../css/Projects.css";
 import { Link } from "react-router-dom";
 
 const projects = [
   {
     id: 1,
-    img: img,
+    img: img1,
     text: "Bentford city",
   },
   {
     id: 2,
-    img: img,
+    img: img2,
     text: "Bentford city",
   },
   {
     id: 3,
-    img: img,
+    img: img3,
     text: "Bentford city",
   },
   {
     id: 4,
-    img: img,
+    img: img2,
     text: "Bentford city",
   },
   {
     id: 5,
-    img: img,
+    img: img3,
     text: "Bentford city",
   },
   {
     id: 6,
-    img: img,
+    img: img1,
     text: "Bentford city",
   },
   {
     id: 7,
-    img: img,
+    img: img3,
     text: "Bentford city",
   },
   {
     id: 8,
-    img: img,
+    img: img1,
     text: "Bentford city",
   },
   {
     id: 9,
-    img: img,
+    img: img2,
     text: "Bentford city",
   },
 ];

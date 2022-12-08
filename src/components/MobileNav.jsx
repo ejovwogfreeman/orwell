@@ -18,20 +18,29 @@ const MobileNav = ({ open, handleOpen }) => {
       </li>
       <li>
         <div className="dropdown-mobile" onClick={handleShow}>
-          <Link to="/about" className="d-flex align-items-center">
+          <span
+            className="d-flex align-items-center justify-content-center span"
+            style={{ padding: "20px" }}
+          >
             <span style={{ marginRight: "5px" }}>ABOUT</span>
             <IoMdArrowDropdown />
-          </Link>
+          </span>
           <ul
             className={
               show ? "dropdown-items-mobile-block" : "dropdown-items-mobile"
             }
           >
-            <li>
+            <li onClick={() => handleOpen()}>
+              <Link to="/about">ABOUT US</Link>
+            </li>
+            <li onClick={() => handleOpen()}>
               <Link to="/mission">OUR MISSION</Link>
             </li>
-            <li>
+            <li onClick={() => handleOpen()}>
               <Link to="/vision">OUR VISION</Link>
+            </li>
+            <li onClick={() => handleOpen()}>
+              <Link to="/values">OUR VALUES</Link>
             </li>
           </ul>
         </div>
