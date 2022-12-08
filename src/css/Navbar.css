@@ -120,11 +120,78 @@ nav img {
     background-color: black;
     display: flex;
     justify-content: center;
-    padding: 25px;
+    padding: 20px;
     transition: 0.2s ease-in-out;
   }
-  .mobile-nav a:hover {
+  .mobile-nav a:hover,
+  .span:hover {
     color: white;
     background-color: rgb(70, 68, 68);
+    cursor: pointer;
   }
+}
+
+.dropdown {
+  position: relative;
+}
+
+.dropdown-items {
+  position: absolute;
+  background-color: transparent;
+  padding-left: 0px;
+  margin-left: -50px;
+  margin-top: 0px;
+  transition: 0.5s ease-in-out;
+  opacity: 0;
+}
+
+.dropdown:hover .dropdown-items {
+  margin-top: 20px;
+  opacity: 1;
+}
+
+.dropdown-items li a {
+  display: flex;
+  width: 120px;
+  background-color: black;
+  margin-left: 0px;
+  justify-content: center;
+  padding: 8px;
+  font-size: 14px;
+}
+
+.dropdown-items li a:hover {
+  background-color: rgb(48, 38, 49);
+  color: white;
+  cursor: pointer;
+}
+
+.dropdown-items-mobile-block li {
+  display: flex;
+  justify-content: center;
+  margin-left: -32px;
+}
+
+.dropdown-items-mobile-block {
+  display: block;
+}
+
+.dropdown-items-mobile {
+  display: none;
+}
+
+.dropdown-items-mobile-block li {
+  text-align: center;
+}
+
+.dropdown-items-mobile-block li a {
+  background-color: transparent;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  background-color: rgba(256, 256, 256, 0.1);
+}
+
+.dropdown-items-mobile-block li a:hover {
+  background-color: rgb(70, 68, 68);
 }

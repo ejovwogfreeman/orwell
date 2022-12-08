@@ -13,7 +13,11 @@ const Section = () => {
         <br /> We're a technology- oriented company specializing in the areas of
         land purchasing, estate development and management. We also pride
         ourselves in securing viable investment opportunities for clients home
-        and abroad.
+        and abroad. <br /> <br />
+        We believe in delivering extraordinary experiences to our customers by
+        providing them the best real estate investments at a very reasonable
+        cost. Are you ready to find your dream home or land? We are ready to
+        help you make the best investment decision ever.
       </div>
     </div>
   );
