@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 import "../css/Navbar.css";
 import { AiOutlineMenu } from "react-icons/ai";
 import MobileNav from "./MobileNav";
+import { IoMdArrowDropdown } from "react-icons/io";
 
 const Navbar = () => {
   const [open, setOpen] = useState(false);
@@ -33,7 +34,19 @@ const Navbar = () => {
           <Link to="/">HOME</Link>
         </li>
         <li>
-          <Link to="/about">ABOUT</Link>
+          <div className="dropdown">
+            <Link to="/about">
+              ABOUT <IoMdArrowDropdown />
+            </Link>
+            <ul className="dropdown-items">
+              <li>
+                <Link to="/mission">OUR MISSION</Link>
+              </li>
+              <li>
+                <Link to="/vision">OUR VISION</Link>
+              </li>
+            </ul>
+          </div>
         </li>
         <li>
           <Link to="/services">SERVICES</Link>
@@ -45,7 +58,7 @@ const Navbar = () => {
           <Link to="/people">PEOPLE</Link>
         </li>
         <li>
-          <Link to="/login">INVESTORS LOGIN</Link>
+          <Link to="/login">INVESTORS</Link>
         </li>
         <li>
           <Link to="/contact">CONTACT</Link>
