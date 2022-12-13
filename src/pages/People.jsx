@@ -2,12 +2,12 @@ import React from "react";
 import ScrollToTop from "../components/ScrollToTop";
 import img from "../assets/default.jpg";
 import "../css/People.css";
-import {
-  FaFacebookSquare,
-  FaTwitterSquare,
-  FaInstagramSquare,
-  FaLinkedin,
-} from "react-icons/fa";
+// import {
+//   FaFacebookSquare,
+//   FaTwitterSquare,
+//   FaInstagramSquare,
+//   FaLinkedin,
+// } from "react-icons/fa";
 
 const People = () => {
   return (
@@ -23,7 +23,7 @@ const People = () => {
           />
           <h3 className="mt-3">Margaret Oki</h3>
           <h5>CEO</h5>
-          <div className="icons">
+          {/* <div className="icons">
             <a href="https://facebook.com">
               <FaFacebookSquare />
             </a>
@@ -36,7 +36,7 @@ const People = () => {
             <a href="https://linkedin.com">
               <FaLinkedin />
             </a>
-          </div>
+          </div> */}
         </div>
         <div className="person">
           <img
@@ -46,7 +46,7 @@ const People = () => {
           />
           <h3 className="mt-3">Ben Oki</h3>
           <h5>CFO</h5>
-          <div className="icons">
+          {/* <div className="icons">
             <a href="https://facebook.com">
               <FaFacebookSquare />
             </a>
@@ -59,7 +59,7 @@ const People = () => {
             <a href="https://linkedin.com">
               <FaLinkedin />
             </a>
-          </div>
+          </div> */}
         </div>
         <div className="person">
           <img
@@ -70,7 +70,7 @@ const People = () => {
           <h3 className="mt-3">Odafe Otobo</h3>
           {/* <h5>Business Development Manager</h5> */}
           <h5>BDM</h5>
-          <div className="icons">
+          {/* <div className="icons">
             <a href="https://facebook.com">
               <FaFacebookSquare />
             </a>
@@ -83,7 +83,7 @@ const People = () => {
             <a href="https://linkedin.com">
               <FaLinkedin />
             </a>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>

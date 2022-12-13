@@ -101,18 +101,7 @@ const Services = () => {
           justifyContent: "left",
           padding: "50px 5%",
         }}
-      >
-        <div style={{ fontSize: "20px" }}>
-          <h3>Our Health & Safety Commitment</h3>
-          <p>
-            We do not compromise when it comes to Health & Safety. Our aim is to
-            be the recognized leader in Health & Safety in our sector. Through a
-            range of communications programmes and targeted training initiatives
-            we are working hard to achieve our Target Zero goal: zero accidents
-            and zero illnesses caused by work.
-          </p>
-        </div>
-      </header>
+      ></header>
     </>
   );
 };

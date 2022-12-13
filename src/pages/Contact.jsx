@@ -50,19 +50,20 @@ const Contact = () => {
               Address: <br />
               <MdLocationOn className="icon" /> &nbsp; Orwell Properties
               Management Limited <br />
-              Cf5 Katampe Estate, Phase 3, Jahi District, Abuja
+              Shashilga Court Building 111/ 112 Gwarimpa Expressway Mabushi
+              Abuja
             </p>
             <p>
               Send a Mail: <br />
               <span>
                 <CgMail className="icon" />
-                &nbsp; orwell@properties.com
+                &nbsp; info@orwellpropertiesmanagement.com
               </span>
             </p>
             <p>
               Call us: <br />
               <span>
-                <MdCall className="icon" /> &nbsp; +2779 985 8789
+                <MdCall className="icon" /> &nbsp; 08169553465, 08134466174
               </span>
             </p>
           </div>

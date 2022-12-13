@@ -59,6 +59,14 @@ const Projects = () => {
     <div className="project-cont">
       <ScrollToTop />
       <p className="display-5 text-center pb-3">Projects</p>
+      <div style={{ marginBottom: "1rem" }}>
+        <span>Sort By:</span>&nbsp;
+        <select name="lands" id="lands">
+          <option value="all">All</option>
+          <option value="commercial">Commercial</option>
+          <option value="private">Private</option>
+        </select>
+      </div>
       <div className="projects">
         {projects.map((x) => {
           return (
