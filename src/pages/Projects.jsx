@@ -64,7 +64,7 @@ const Projects = () => {
         <select name="lands" id="lands">
           <option value="all">All</option>
           <option value="commercial">Commercial</option>
-          <option value="private">Private</option>
+          <option value="residential">Residential</option>
         </select>
       </div>
       <div className="projects">
