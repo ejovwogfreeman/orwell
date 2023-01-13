@@ -1,7 +1,0 @@
-export { default as Header } from './Footer'
-export { default as NavBar } from './Navbar'
-export { default as Section } from './Section'
-export { default as Slider } from './Slider'
-export { default as PicsBox } from './features/PicsBox'
-export { default as TextBox } from './features/TextBox'
-export { default as Footer } from './Footer'
