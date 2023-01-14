@@ -20,7 +20,7 @@ const Section = () => {
         help you make the best investment decision ever.
         <div style={{ fontSize: "20px", marginTop: "2rem" }}>
           <h3>Our Health & Safety Commitment</h3>
-          <p style={{ textAlign: "start" }}>
+          <p style={{ textAlign: "center" }}>
             We do not compromise when it comes to Health & Safety. Our aim is to
             be the recognized leader in Health & Safety in our sector. Through a
             range of communications programmes and targeted training initiatives

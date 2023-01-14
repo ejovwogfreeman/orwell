@@ -31,13 +31,13 @@ const Services = () => {
             <span>
               <GiCheckMark />
             </span>
-            <span className="ms-3"> Real Estate Advisory</span>
+            <span className="ms-3">Real Estate Advisory</span>
           </li>
           <li>
             <span>
               <GiCheckMark />
             </span>
-            <span className="ms-3"> Estate Agency</span>
+            <span className="ms-3">Estate Agency</span>
           </li>
           <li>
             <span>
