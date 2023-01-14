@@ -6,10 +6,18 @@ const Footer = () => {
   return (
     <footer>
       <div style={{ fontSize: "25px" }}>
-        <BsFacebook className="icon" />
-        <BsInstagram className="icon" />
-        <BsTwitter className="icon" />
-        <BsLinkedin className="icon" />
+        <a href="">
+          <BsFacebook className="icon" />
+        </a>
+        <a href="">
+          <BsInstagram className="icon" />
+        </a>
+        <a href="">
+          <BsTwitter className="icon" />
+        </a>
+        <a href="">
+          <BsLinkedin className="icon" />
+        </a>
       </div>
       <span>
         &copy; COPYRIGHT {new Date().getFullYear()} - ALL RIGHTS RESERVED.

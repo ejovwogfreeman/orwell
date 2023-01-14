@@ -9,3 +9,8 @@ footer .icon {
   padding: 5px;
   cursor: pointer;
 }
+
+footer a {
+  color: white;
+  transition: 0.5s ease-in-out;
+}
