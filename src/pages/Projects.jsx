@@ -22,77 +22,77 @@ const projects = [
   {
     id: 1,
     img: img1,
-    text: "Cedar Court",
+    text: "Cedar Court Idu",
   },
   {
     id: 2,
     img: img2,
-    text: "Cedar Court",
+    text: "Cedar Court Idu",
   },
   {
     id: 3,
     img: img3,
-    text: "Cedar Court",
+    text: "Cedar Court Idu",
   },
   {
     id: 4,
     img: img4,
-    text: "Frazer",
+    text: "Frazer Court Zuba ",
   },
   {
     id: 5,
     img: img5,
-    text: "Frazer",
+    text: "Frazer Court Zuba ",
   },
   {
     id: 6,
     img: img6,
-    text: "Frazer",
+    text: "Frazer Court Zuba ",
   },
   {
     id: 7,
     img: img7,
-    text: "Juniper Court",
+    text: "Juniper Court Kurudu",
   },
   {
     id: 8,
     img: img8,
-    text: "Juniper Court",
+    text: "Juniper Court Kurudu",
   },
   {
     id: 9,
     img: img9,
-    text: "Juniper Court",
+    text: "Juniper Court Kurudu",
   },
   {
     id: 10,
     img: img10,
-    text: "Magnolia Court",
+    text: "Magnolia Court Kiyami",
   },
   {
     id: 11,
     img: img11,
-    text: "Magnolia Court",
+    text: "Magnolia Court Kiyami",
   },
   {
     id: 12,
     img: img12,
-    text: "Magnolia Court",
+    text: "Magnolia Court Kiyami",
   },
   {
     id: 13,
     img: img13,
-    text: "Medina Court",
+    text: "Medina Court Jikwoyi",
   },
   {
     id: 14,
     img: img14,
-    text: "Medina Court",
+    text: "Medina Court Jikwoyi",
   },
   {
     id: 15,
     img: img15,
-    text: "Medina Court",
+    text: "Medina Court Jikwoyi",
   },
 ];
 

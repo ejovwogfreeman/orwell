@@ -4,3 +4,8 @@ footer {
   color: white;
   background-color: black;
 }
+
+footer .icon {
+  padding: 5px;
+  cursor: pointer;
+}
