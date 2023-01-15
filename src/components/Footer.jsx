@@ -6,13 +6,13 @@ const Footer = () => {
   return (
     <footer>
       <div style={{ fontSize: "25px" }}>
-        <a href="">
+        <a href="https://web.facebook.com/OrwellNG?mibextid=ZbWKwL&_rdc=1&_rdr">
           <BsFacebook className="icon" />
         </a>
-        <a href="">
+        <a href="https://www.instagram.com/orwellpropertiesmanagement/">
           <BsInstagram className="icon" />
         </a>
-        <a href="">
+        <a href="https://twitter.com/OrwellNG?t=NiFfK7siOncP2dHi3EvKUw&s=08">
           <BsTwitter className="icon" />
         </a>
         <a href="">
