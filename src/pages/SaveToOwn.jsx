@@ -67,7 +67,7 @@ const SaveToOwn = () => {
 
       <h4>We have 3 categories.</h4>
 
-      <ul style={{ paddingLeft: "0px", textAlign: "left" }}>
+      <ul className="list">
         <li>
           (1)&nbsp;&nbsp;&nbsp;(i)Bronze plan~ 140k monthly for 300sqm <br />{" "}
           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(ii)Bronze plan~ 265k

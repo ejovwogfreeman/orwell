@@ -2,3 +2,14 @@
   padding: 50px 5%;
   text-align: justify;
 }
+
+.list {
+  padding-left: 0px;
+  text-align: left;
+}
+
+@media screen and (max-width: 600px) {
+  .list {
+    font-size: 12px;
+  }
+}
