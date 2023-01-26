@@ -73,6 +73,9 @@ const Navbar = () => {
         <li>
           <Link to="/contact">CONTACT</Link>
         </li>
+        <li>
+          <Link to="/save_to_own">SAVE TO OWN</Link>
+        </li>
       </ul>
       <div className="menu-icon">
         <AiOutlineMenu onClick={handleOpen} />

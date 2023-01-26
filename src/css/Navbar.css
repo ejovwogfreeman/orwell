@@ -143,6 +143,7 @@ nav img {
   margin-top: 0px;
   transition: 0.5s ease-in-out;
   opacity: 0;
+  z-index: 9999999;
 }
 
 .dropdown:hover .dropdown-items {

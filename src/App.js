@@ -13,6 +13,7 @@ import Notfound from "./pages/Notfound";
 import Mission from "./pages/Mission";
 import Vision from "./pages/Vision";
 import Values from "./pages/Values";
+import SaveToOwn from "./pages/SaveToOwn";
 
 function App() {
   return (
@@ -30,6 +31,7 @@ function App() {
           <Route path="/mission" element={<Mission />} />
           <Route path="/vision" element={<Vision />} />
           <Route path="/values" element={<Values />} />
+          <Route path="/save_to_own" element={<SaveToOwn />} />
           <Route path="*" element={<Notfound />} />
         </Routes>
         <Footer />

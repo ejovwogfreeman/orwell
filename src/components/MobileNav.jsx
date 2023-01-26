@@ -60,6 +60,9 @@ const MobileNav = ({ open, handleOpen }) => {
       <li onClick={() => handleOpen()}>
         <Link to="/contact">CONTACT</Link>
       </li>
+      <li onClick={() => handleOpen()}>
+        <Link to="/save_to_own">SAVE TO OWN</Link>
+      </li>
     </ul>
   );
 };
