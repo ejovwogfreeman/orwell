@@ -69,18 +69,18 @@ const SaveToOwn = () => {
 
       <ul className="list">
         <li>
-          (1)&nbsp;&nbsp;&nbsp;(i)Bronze plan~ 140k monthly for 300sqm <br />{" "}
-          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(ii)Bronze plan~ 265k
+          (1)&nbsp;&nbsp;&nbsp;(i)Bronze plan ~ ₦140k monthly for 300sqm <br />{" "}
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(ii)Bronze plan ~ ₦265k
           monthly for 500sqm
         </li>
         <li>
-          (2)&nbsp;&nbsp;&nbsp;(i) Silver plan~ 265k monthly for 300sqm <br />{" "}
-          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(ii)Silver plan~ 350k
+          (2)&nbsp;&nbsp;&nbsp;(i) Silver plan ~ ₦265k monthly for 300sqm <br />{" "}
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(ii)Silver plan ~ ₦350k
           monthly for 500sqm
         </li>
         <li>
-          (3)&nbsp;&nbsp;&nbsp;(i)Gold plan ~#760k monthly for 300sqm <br />{" "}
-          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(ii)Gold plan ~ 1.260k
+          (3)&nbsp;&nbsp;&nbsp;(i)Gold plan ~ ₦760k monthly for 300sqm <br />{" "}
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(ii)Gold plan ~ ₦1.260k
           monthly for 500sqm
         </li>
       </ul>
