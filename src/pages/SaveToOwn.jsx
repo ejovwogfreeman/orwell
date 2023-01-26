@@ -17,7 +17,7 @@ const SaveToOwn = () => {
     margin: 10,
     navText: ["&#x2770;", "&#x2771;"],
     autoplay: true,
-    autoplayTimeout: 2000,
+    autoplayTimeout: 3000,
     autoplayHoverPause: true,
     responsive: {
       0: {
