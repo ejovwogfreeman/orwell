@@ -61,8 +61,36 @@ const Navbar = () => {
         <li>
           <Link to="/services">SERVICES</Link>
         </li>
-        <li>
+        {/* <li>
           <Link to="/projects">PROJECTS</Link>
+        </li> */}
+        <li>
+          <div className="dropdown">
+            <span
+              to="/about"
+              className="d-flex align-items-center"
+              style={{ cursor: "pointer", color: "rgb(184, 134, 11)" }}
+            >
+              <span>PROJECTS</span> <IoMdArrowDropdown />
+            </span>
+            <ul className="dropdown-items project-dropdown">
+              <li onClick={() => window.location.reload(true)}>
+                <Link to="/projects/cedar_court">CEDAR COURT</Link>
+              </li>
+              <li onClick={() => window.location.reload(true)}>
+                <Link to="/projects/frazer_court">FRAZER COURT</Link>
+              </li>
+              <li onClick={() => window.location.reload(true)}>
+                <Link to="/projects/juniper_court">JUNIPER COURT</Link>
+              </li>
+              <li onClick={() => window.location.reload(true)}>
+                <Link to="/projects/magnolia_court">MAGNOLIA COURT</Link>
+              </li>
+              <li onClick={() => window.location.reload(true)}>
+                <Link to="/projects/medina_court">MEDINA COURT</Link>
+              </li>
+            </ul>
+          </div>
         </li>
         <li>
           <Link to="/people">PEOPLE</Link>

@@ -161,6 +161,10 @@ nav img {
   font-size: 14px;
 }
 
+.project-dropdown li a {
+  width: 140px;
+}
+
 .dropdown-items li a:hover {
   background-color: rgb(48, 38, 49);
   color: white;
