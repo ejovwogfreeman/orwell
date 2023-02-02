@@ -47,11 +47,10 @@ const Contact = () => {
           <div className="address">
             <h4>GET IN TOUCH</h4>
             <p>
-              Address: <br />
-              <MdLocationOn className="icon" /> &nbsp; Orwell Properties
-              Management Limited <br />
-              Shashilga Court Building 111/ 112 Gwarimpa Expressway Mabushi
-              Abuja
+              Corporate Office Address: <br />
+              <MdLocationOn className="icon" />
+              &nbsp; Suite 431 Kings Plaza, Ahmadu Bello way, off Kado Gwarinpa
+              Expressway, Abuja FCT
             </p>
             <p>
               Send a Mail: <br />
@@ -63,7 +62,8 @@ const Contact = () => {
             <p>
               Call us: <br />
               <span>
-                <MdCall className="icon" /> &nbsp; 08169553465, 08134466174
+                <MdCall className="icon" /> &nbsp; +234 814 693 2080, +234 813
+                446 6174
               </span>
             </p>
           </div>

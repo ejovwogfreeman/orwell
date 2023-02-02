@@ -86,14 +86,14 @@ const SaveToOwn = () => {
       </ul>
 
       <p>
-        Bronze packages are Juniper and Medina Court located at Kurudu and
-        Jikwoyi.
+        Bronze packages are Juniper Court Estate and Medina Court Estate located
+        in Kurudu and Jikwoyi.
       </p>
-
       <p>
-        Silver packages are Fraser Court and Cedar court located at Idu and
-        Kubwa expressway.
+        Silver packages are Cedar Court Estate and Frazer Court Estate located
+        in Zuba and Idu.
       </p>
+      <p>Gold package is Magnolia Court Estate located in Kiyami.</p>
     </div>
   );
 };
