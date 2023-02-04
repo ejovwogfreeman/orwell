@@ -39,6 +39,12 @@ const SaveToOwn = () => {
           <img src={img1} alt="" style={{ filter: "brightness(100%)" }} />
         </div>
         <div className="item">
+          <img src={img5} alt="" style={{ filter: "brightness(100%)" }} />
+        </div>
+        <div className="item">
+          <img src={img6} alt="" style={{ filter: "brightness(100%)" }} />
+        </div>
+        <div className="item">
           <img src={img2} alt="" style={{ filter: "brightness(100%)" }} />
         </div>
         <div className="item">
@@ -46,12 +52,6 @@ const SaveToOwn = () => {
         </div>
         <div className="item">
           <img src={img4} alt="" style={{ filter: "brightness(100%)" }} />
-        </div>
-        <div className="item">
-          <img src={img5} alt="" style={{ filter: "brightness(100%)" }} />
-        </div>
-        <div className="item">
-          <img src={img6} alt="" style={{ filter: "brightness(100%)" }} />
         </div>
       </OwlCarousel>
       <h3 style={{ textAlign: "left" }} className="mt-3">
