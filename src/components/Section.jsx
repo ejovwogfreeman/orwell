@@ -2,8 +2,23 @@ import React from "react";
 import "../css/Section.css";
 import video from "../assets/video.mp4";
 import { Link } from "react-router-dom";
+import pdf from "../assets/orwell_subscriptin.pdf";
 
 const Section = () => {
+  const onButtonClick = () => {
+    // using Java Script method to get PDF file
+    fetch(pdf).then((response) => {
+      response.blob().then((blob) => {
+        // Creating new object of PDF file
+        const fileURL = window.URL.createObjectURL(blob);
+        // Setting various property values
+        let alink = document.createElement("a");
+        alink.href = fileURL;
+        alink.download = "SamplePDF.pdf";
+        alink.click();
+      });
+    });
+  };
   return (
     <div className="section">
       <div className="text">
@@ -23,9 +38,12 @@ const Section = () => {
         <video src={video} controls width="100%"></video>
         <div style={{ marginTop: "20px" }}>
           <Link to="/pdf" className="pdf-link">
-            Download And Fill Our form
+            Download And Fill Our Form
           </Link>
         </div>
+        <button onClick={onButtonClick} className="pdf-btn">
+          Download And Fill Our Form
+        </button>
         <div style={{ fontSize: "20px", marginTop: "2rem" }}>
           <h3>Our Health & Safety Commitment</h3>
           <p style={{ textAlign: "center" }}>
