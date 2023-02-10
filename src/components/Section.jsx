@@ -11,7 +11,7 @@ const Section = () => {
         const fileURL = window.URL.createObjectURL(blob);
         let alink = document.createElement("a");
         alink.href = fileURL;
-        alink.download = "SamplePDF.pdf";
+        alink.download = "subscription_form.pdf";
         alink.click();
       });
     });
