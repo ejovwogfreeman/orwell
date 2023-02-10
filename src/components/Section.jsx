@@ -5,17 +5,6 @@ import { Link } from "react-router-dom";
 import pdf from "../assets/orwell_subscriptin.pdf";
 
 const Section = () => {
-  // const onButtonClick = () => {
-  //   fetch(pdf).then((response) => {
-  //     response.blob().then((blob) => {
-  //       const fileURL = window.URL.createObjectURL(blob);
-  //       let alink = document.createElement("a");
-  //       alink.href = fileURL;
-  //       alink.download = "subscription_form.pdf";
-  //       alink.click();
-  //     });
-  //   });
-  // };
   return (
     <div className="section">
       <div className="text">
@@ -38,15 +27,7 @@ const Section = () => {
             Download And Fill Our Form
           </Link>
         </div>
-        {/* <button onClick={onButtonClick} className="pdf-btn">
-          Download And Fill Our Form
-        </button> */}
-        <a
-          href={pdf}
-          attributes-list
-          download="subscription_form"
-          className="pdf-btn"
-        >
+        <a href={pdf} download="subscription_form" className="pdf-btn">
           Download And Fill Our Form
         </a>
         <div style={{ fontSize: "20px", marginTop: "2rem" }}>
