@@ -14,6 +14,7 @@ import Mission from "./pages/Mission";
 import Vision from "./pages/Vision";
 import Values from "./pages/Values";
 import SaveToOwn from "./pages/SaveToOwn";
+import Pdf from "./pages/Pdf";
 
 function App() {
   return (
@@ -32,6 +33,7 @@ function App() {
           <Route path="/vision" element={<Vision />} />
           <Route path="/values" element={<Values />} />
           <Route path="/save_to_own" element={<SaveToOwn />} />
+          <Route path="/pdf" element={<Pdf />} />
           <Route path="*" element={<Notfound />} />
         </Routes>
         <Footer />

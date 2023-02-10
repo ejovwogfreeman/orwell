@@ -1,5 +1,7 @@
 import React from "react";
 import "../css/Section.css";
+import video from "../assets/video.mp4";
+import { Link } from "react-router-dom";
 
 const Section = () => {
   return (
@@ -17,7 +19,13 @@ const Section = () => {
         We believe in delivering extraordinary experiences to our customers by
         providing them the best real estate investments at a very reasonable
         cost. Are you ready to find your dream home or land? We are ready to
-        help you make the best investment decision ever.
+        help you make the best investment decision ever. <br /> <br />
+        <video src={video} controls width="100%"></video>
+        <div style={{ marginTop: "20px" }}>
+          <Link to="/pdf" className="pdf-link">
+            Download And Fill Our form
+          </Link>
+        </div>
         <div style={{ fontSize: "20px", marginTop: "2rem" }}>
           <h3>Our Health & Safety Commitment</h3>
           <p style={{ textAlign: "center" }}>
